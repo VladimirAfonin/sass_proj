@@ -43,4 +43,4 @@ gulp.task('serve', function(){
 
 });
 
-gulp.task('default', ['serve']);
+gulp.task('default', ['scss', 'serve']);

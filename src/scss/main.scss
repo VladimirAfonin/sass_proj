@@ -20,3 +20,17 @@ a {
   max-width: $view-port;
   margin: 0 auto;          // центрируем контент
 }
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.first-screen {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; // контент по всей ширине блока
+  height: 100vh; // во весь экран клиента
+}
