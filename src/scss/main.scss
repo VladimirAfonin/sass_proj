@@ -36,3 +36,7 @@ a {
   flex-grow: 1; // контент по всей ширине блока
   height: 100vh; // во весь экран клиента
 }
+
+.hide {
+  display: none !important;
+}
